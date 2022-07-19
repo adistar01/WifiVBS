@@ -23,7 +23,7 @@ var eval;
 
 
 app.get('/', (req, res) => {
-  res.send(eval);
+  res.send(eval.toString());
   
 })
 
